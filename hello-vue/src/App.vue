@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <campervanFilter />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import campervanFilter from './components/campervanFilter.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    campervanFilter
   }
 }
 </script>
